@@ -1,3 +1,6 @@
+body {
+    background-color: #dfdfdf;
+}
 body, 
 p, 
 h1, 
@@ -8,6 +11,12 @@ h2 {
 }
 a{
     text-decoration: none;
+}
+
+a, 
+button {
+    transition: 500ms;
+    cursor: pointer;
 }
 .black-header {
     display: flex;
@@ -21,23 +30,70 @@ a{
     font-weight: lighter;
     font-size: 13px;
 }
+
 .black-header a:hover {
     color: white;
-    transition: 500ms;
 }
+
 .white-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 14px;
+    background-color: white;
 }
+
 .customer-side {
     display: flex;
     align-items: center;
 }
+
 .white-header a {
+    color: #616161;
     margin: 0 12px;
+    font-size: 17px;
 }
-img {
-    width: 10%;
+
+.white-header a:hover {
+    color: #909090;
+}
+
+.white-header button {
+    background-color: rgb(237, 95, 43);
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.white-header button:hover {
+background-color:rgb(235, 114, 70) ;
+}
+
+.hero {
+    height: 70vh;
+    background-image: url(./city1.jpg);
+    background-size: cover;
+}
+
+.news {
+padding: 32px;
+background-color: white;
+margin: -20px 32px 0px 32px;
+}
+
+.news h2 {
+    text-align: center;
+    font-weight: 300;
+    border-bottom: 2px solid rgb(255, 145, 0);
+    width: 120px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+.cars
+
+.logo {
+    width: 150px;
+    height: 50px;
 }
