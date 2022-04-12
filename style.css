@@ -89,6 +89,7 @@ margin: -20px 32px 0px 32px;
     width: 120px;
     margin: 0 auto;
     padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .cards {
 display: flex;
@@ -112,4 +113,35 @@ padding: 16px;
 .logo {
     width: 150px;
     height: 50px;
+}
+@media screen and (max-width:768px) {
+    .black-header {
+        justify-content: center;
+    }
+    .black-header a {
+        font-size: 16px;
+    }
+    .black-header .info-side {
+        display: none;
+    }
+    .white-header {
+        flex-direction: column;
+    }
+    .white-header .customer-side{
+        margin-bottom: 16px;
+    }
+    .white-header button {
+        padding: 16px 20px;
+        font-size: 16px;
+    }
+    .hero {
+        height: 30vh;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        margin: 8px 0;
+    }
 }
